@@ -1,7 +1,9 @@
-var colors = 'white green red blue yellow'
+
 
 $(document).ready(function() {
 // all code goes in here
+var colors = 'white green red blue yellow'
+
 $('.box').on('click', function() {
   $(this).addClass(color);
 })
